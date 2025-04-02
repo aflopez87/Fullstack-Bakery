@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+}
+
+
+.brand{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a4302a;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav a{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black
+}
+
+nav a:hover{
+    background-color: #a4302a;
+    color: white;
+    border-radius: 10px;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+}
+
+aside{
+    width: 15%;
+    margin: 0;
+}
+
+aside ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+ul li{
+    background-color: #a4302a;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.5rem 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+article{
+    margin: 0;
+ 
+    padding: 0 1rem;
+}
+.testimonial{
+    background-color: #eeeeee;
+    font-style: italic;
+    margin: 0 0 10px 0;
+    padding: 20px;
+}
+
+
+p{
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.25rem;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
